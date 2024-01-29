@@ -1,0 +1,15 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+python-dotenv = "*"
+dj-database-url = "*"
+psycopg2 = "*"
+djangorestframework = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
